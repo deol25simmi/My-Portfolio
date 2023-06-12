@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+  <body>
+    <div class="bg-image">
+      <header>
+        <nav>
+          <div class="left">Simmi's Portfolio</div>
+          <div class="right">
+            <ul>
+              <li><a href="#first">Home</a></li>
+             
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section id="first" class="first">
+          <div class="leftSec">
+            Hi, My name is Simmi. I am a
+            <span id="element"></span>
+          </div>
+          <div class="rightSec">
+            <img src="final.png" alt="" />
+          </div>
+        </section>
+        <section class="secondSection">
+          <span class="text-color">What I have done so far?</span>
+          <h1>Accompolishments</h1>
+          <div class="box">
+            <div class="vertical">
+              <img class="image-top" src="dev.jpg" alt="" />
+              <div class="vertical-title">
+                Microsoft Cybersecurity Engage (May 2022 - June 2022)
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="dev.jpg" alt="" />
+              <div class="vertical-title">
+                Amazon ML Summer School (July 2022)
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="dev.jpg" alt="" />
+              <div class="vertical-title">
+                Software Developer Intern (June 2023- Present)
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="project" class="Prj">
+          <div class="project-title">
+            <h2>Projects</h2>
+          </div>
+          <div class="project">
+            <h2>
+              Diabetes Prediction using Adaboost, Random Forest Algorithm, and
+              Logistic Regression Analysis <br>
+            </h2>
+            <p>
+              <br>
+              This project focuses on predicting diabetes using machine learning
+              algorithms such as Adaboost, Random Forest, and Logistic
+              Regression. 
+            </p>
+            <p>
+              It aims find the algorithm which has  greatest accuracy among all.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer id="contact">
+        <div class="flex">
+          <div class="footer-first">
+            <h3>Simmi's Portfolio</h3>
+          </div>
+          <div class="footer-second">
+            <ul>
+              <li>
+                <a href="mailto:deolsimmi25@gmail.com"
+                  ><img class="img" src="Gmail-Logo.png" /></a
+                >Email
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/simmi-d-24828622a"
+                  ><img class="img" src="linkedin.png" /></a
+                >Linkedin
+              </li>
+              <li>
+                <a href="https://github.com/deol25simmi"
+                  ><img class="img" src="git.jpg" /></a
+                >Github
+              </li>
+            </ul>
+            <h2 class="lastpt">Thank you for your visit!</h2>
+          </div>
+        </div>
+      </footer>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed("#element", {
+          strings: ["Problem-Solver", "Frontend Developer"],
+          typeSpeed: 50,
+        });
+      </script>
+    </div>
+  </body>
+</html>
